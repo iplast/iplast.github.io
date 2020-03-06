@@ -1,0 +1,147 @@
+BODY {
+	COLOR: #333
+}
+BODY {
+	FONT-SIZE: 90%
+}
+TD {
+	FONT-SIZE: 90%
+}
+A {
+	COLOR: #16a200
+}
+A.anchor {
+	COLOR: #333
+}
+H1 {
+	FONT-SIZE: 1.75em
+}
+H2 {
+	FONT-SIZE: 1.35em
+}
+H3 {
+	FONT-SIZE: 1.17em
+}
+H4 {
+	FONT-SIZE: 1em
+}
+H5 {
+	FONT-SIZE: 1em
+}
+H6 {
+	FONT-SIZE: 1em
+}
+H1 {
+	COLOR: #333
+}
+H1 A.anchor {
+	COLOR: #333
+}
+H2 {
+	COLOR: #5c5c5c
+}
+H3 {
+	COLOR: #5c5c5c
+}
+H4 {
+	COLOR: #5c5c5c
+}
+H5 {
+	COLOR: #5c5c5c
+}
+H6 {
+	COLOR: #5c5c5c
+}
+H2 A.anchor {
+	COLOR: #5c5c5c
+}
+H3 A.anchor {
+	COLOR: #5c5c5c
+}
+H4 A.anchor {
+	COLOR: #5c5c5c
+}
+H5 A.anchor {
+	COLOR: #5c5c5c
+}
+H6 A.anchor {
+	COLOR: #5c5c5c
+}
+HR {
+	MARGIN: 0.85em 0px
+}
+.gray {
+	COLOR: #999
+}
+.gray  {
+	COLOR: #999
+}
+.silver {
+	COLOR: #999
+}
+.silver  {
+	COLOR: #999
+}
+#pageFooter2 HR {
+	MARGIN-BOTTOM: 0.35em
+}
+#pageFooter2 TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+#pageFooter2 TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 75%; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+#pageFooter2 P {
+	MARGIN: 0px 0px 0px 1em; TEXT-ALIGN: right
+}
+#scroll {
+	DISPLAY: none
+}
+#productMoving {
+	DISPLAY: none
+}
+#basketMessage {
+	DISPLAY: none
+}
+#pageHeader {
+	DISPLAY: none
+}
+#newsTicker {
+	DISPLAY: none
+}
+#pageMenu {
+	DISPLAY: none
+}
+#search {
+	DISPLAY: none
+}
+#pageList {
+	DISPLAY: none
+}
+#productNavigator {
+	DISPLAY: none
+}
+#pageFooter {
+	DISPLAY: none
+}
+.spacerGlobal {
+	DISPLAY: none
+}
+.curve {
+	DISPLAY: none
+}
+#navigatorCaption {
+	DISPLAY: none
+}
+#rootVideo {
+	DISPLAY: none
+}
+#rootHome {
+	DISPLAY: block! important
+}
+#page {
+	WIDTH: 100%! important; HEIGHT: auto! important
+}
+.rubber {
+	WIDTH: 100%! important; HEIGHT: auto! important
+}

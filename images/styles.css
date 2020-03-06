@@ -1,0 +1,583 @@
+@import url("styles-library.css");
+BODY {
+	FONT-SIZE: 80%; FONT-FAMILY: Arial, sans-serif
+}
+TD {
+	FONT-SIZE: 80%; FONT-FAMILY: Arial, sans-serif
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	FONT-SIZE: 1em; FONT-FAMILY: Arial, sans-serif
+}
+SELECT {
+	FONT-SIZE: 1em; FONT-FAMILY: Arial, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 1em; FONT-FAMILY: Arial, sans-serif
+}
+IMG {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+A {
+	TEXT-DECORATION: underline
+}
+A.anchor {
+	TEXT-DECORATION: none
+}
+P {
+	MARGIN: 0.25em 0px 0.95em
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 0px; MARGIN: 1.25em 0px 1.5em 2.5em; PADDING-TOP: 0px; LIST-STYLE-TYPE: decimal
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-IMAGE: none; PADDING-BOTTOM: 0px; MARGIN: 1.25em 0px 1.5em 1.25em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0.6em 0px; PADDING-TOP: 0px
+}
+UL LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 14px; BACKGROUND: url(/images/marker-ul.gif) no-repeat 0px 0.4em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+UL LI LI {
+	BACKGROUND: url(/images/marker-ul-ul.gif) no-repeat 0px 0.4em
+}
+UL LI LI LI LI {
+	BACKGROUND: url(/images/marker-ul-ul.gif) no-repeat 0px 0.4em
+}
+UL LI LI LI {
+	BACKGROUND: url(/images/marker-ul-ul-ul.gif) no-repeat 0px 0.6em
+}
+UL LI LI LI LI LI {
+	BACKGROUND: url(/images/marker-ul-ul-ul.gif) no-repeat 0px 0.6em
+}
+H1 {
+	FONT-SIZE: 2em
+}
+H2 {
+	FONT-SIZE: 1.5em
+}
+H3 {
+	FONT-SIZE: 1.17em
+}
+H4 {
+	FONT-SIZE: 1em
+}
+H5 {
+	FONT-SIZE: 1em
+}
+H6 {
+	FONT-SIZE: 1em
+}
+H1 {
+	MARGIN: 0.75em 0px 0.35em
+}
+H2 {
+	MARGIN: 0.75em 0px 0.35em
+}
+H3 {
+	MARGIN: 0.75em 0px 0.35em
+}
+H4 {
+	MARGIN: 0.75em 0px 0.35em
+}
+H5 {
+	MARGIN: 0.75em 0px 0.35em
+}
+H6 {
+	MARGIN: 0.75em 0px 0.35em
+}
+#pageContent H1 {
+	MARGIN: 0px 0px 1ex
+}
+HR {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND: #ccc; MARGIN: 1ex 0px; OVERFLOW: hidden; BORDER-LEFT: medium none; COLOR: #ccc; BORDER-BOTTOM: medium none; HEIGHT: 2px
+}
+.spacer {
+	DISPLAY: block; FONT-SIZE: 1px; VISIBILITY: hidden; OVERFLOW: hidden; WIDTH: 1px; HEIGHT: 1px
+}
+.small {
+	FONT-SIZE: 0.85em
+}
+SMALL {
+	FONT-SIZE: 0.85em
+}
+.smaller {
+	FONT-SIZE: 0.8em
+}
+.small {
+	FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+.smaller {
+	FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+SMALL {
+	FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+.nowrap {
+	WHITE-SPACE: nowrap
+}
+.nowrap  {
+	WHITE-SPACE: nowrap
+}
+.symbol {
+	MARGIN: 0px 0.1em
+}
+.l {
+	MARGIN-LEFT: 0px
+}
+.r {
+	MARGIN-RIGHT: 0px
+}
+.half {
+	FONT-SIZE: 0.5em
+}
+.center {
+	TEXT-ALIGN: center
+}
+.hidden {
+	VISIBILITY: hidden
+}
+.visible {
+	VISIBILITY: visible
+}
+.none {
+	DISPLAY: none
+}
+.clear {
+	CLEAR: both
+}
+.productRow {
+	
+}
+.productRow IMG {
+	VERTICAL-ALIGN: bottom
+}
+.productRow .spacer {
+	WIDTH: 29px; HEIGHT: 1px
+}
+.lineVertical {
+	BACKGROUND: url(/images/1pixel.gif) repeat-y center center
+}
+.lineHorizontal {
+	BACKGROUND: url(/images/1pixel.gif) repeat-x center center
+}
+.productItem {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 14px; PADDING-TOP: 14px
+}
+.productImage {
+	MARGIN: 0px 0px 10px
+}
+.productTitle {
+	FONT-SIZE: 1.17em! important; MARGIN: 0px
+}
+.productPrice {
+	MARGIN: 0.45em 0px 0px
+}
+.productPrice SPAN {
+	FONT-SIZE: 1.1em
+}
+.productPriceOld {
+	BACKGROUND: url(/images/line-through.gif) no-repeat center center; MARGIN: 0px 0.45em 0px 0px; COLOR: #808080
+}
+.productPriceNow {
+	COLOR: #333
+}
+.productBasket {
+	MARGIN: 0px 0px 0px 0.4em; POSITION: relative; TOP: -1px
+}
+.productBasket IMG {
+	VERTICAL-ALIGN: bottom
+}
+.productDiscount {
+	FONT-WEIGHT: bold; MARGIN: 0.5em 0px 0px; COLOR: #e00035
+}
+.productCode {
+	MARGIN: 0.5em 0px 0px
+}
+#categoryNavigator {
+	MARGIN: 0px 0px 1em
+}
+#productRating {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.75em; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#productRating SPAN {
+	
+}
+#productRating IMG {
+	MARGIN: 0px 1px 0.1em 0px; VERTICAL-ALIGN: bottom; WIDTH: 13px; HEIGHT: 13px
+}
+#productPicture {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid
+}
+#productPhotography {
+	Z-INDEX: 1002; FILTER: progid:DXImageTransform.Microsoft.GradientWipe(Gradientsize="0.25", Wipestyle="0", Motion="Forward"); POSITION: relative; TEXT-ALIGN: center
+}
+#productPhotography P {
+	MARGIN: 0px; HEIGHT: 100%
+}
+#productPhotography A {
+	DISPLAY: block; BACKGROUND: url(/images/blank.gif); CURSOR: pointer; HEIGHT: 100%
+}
+#productPhotography SPAN {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+#productPhotography IMG {
+	VERTICAL-ALIGN: bottom
+}
+#productMagnifier {
+	FONT-SIZE: 1px; Z-INDEX: 1001; BACKGROUND: url(/images/magnifier.png) no-repeat center center; LEFT: -2px; FLOAT: right; MARGIN: -16px 0px 0px; WIDTH: 14px; POSITION: relative; HEIGHT: 14px
+}
+#productEmpty {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+#productEmpty IMG {
+	VERTICAL-ALIGN: bottom
+}
+#productDescription P {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1px; PADDING-BOTTOM: 1.75em; MARGIN: 0px; PADDING-TOP: 0.5em
+}
+#productPreview {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1em; PADDING-TOP: 0px
+}
+#productPreview SPAN {
+	FLOAT: left; MARGIN: 0px 5px 5px 0px; CURSOR: pointer
+}
+.productPreview_off {
+	BORDER-RIGHT: #eee 3px solid; BORDER-TOP: #eee 3px solid; BORDER-LEFT: #eee 3px solid; BORDER-BOTTOM: #eee 3px solid
+}
+.productPreview_on {
+	BORDER-RIGHT: #58c141 3px solid; BORDER-TOP: #58c141 3px solid; BORDER-LEFT: #58c141 3px solid; BORDER-BOTTOM: #58c141 3px solid
+}
+#productPreview A  {
+	CURSOR: pointer
+}
+#productPreview IMG {
+	VERTICAL-ALIGN: bottom; WIDTH: 60px; HEIGHT: 60px
+}
+#productFiles {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1.5em; PADDING-TOP: 0px
+}
+#productFiles UL {
+	MARGIN: 1.25em 2.5em 0px 0.25em
+}
+#productFiles LI {
+	
+}
+#productFiles DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 21px; BACKGROUND: no-repeat left top; LEFT: -1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative
+}
+#productForm {
+	
+}
+#rootDonation {
+	Z-INDEX: 101; FLOAT: right; MARGIN: 0px 0px 20px 20px; WIDTH: 215px; CURSOR: default; POSITION: relative
+}
+#rootDonation .shell {
+	BACKGROUND: #f6f6f6
+}
+#rootDonation .case {
+	BACKGROUND: #f6f6f6
+}
+#rootDonation .title {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 1.1em; BACKGROUND: url(/images/blank.gif); PADDING-BOTTOM: 7px; WIDTH: 100%; CURSOR: default; COLOR: #16a200! important; PADDING-TOP: 8px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#rootDonation .title SPAN {
+	MARGIN: 0px 0px 0px 0.25ex; POSITION: relative; TOP: -2px
+}
+#rootDonation .case {
+	FILTER: progid:DXImageTransform.Microsoft.Fade(Overlap="0.75", Duration="0.25"); WIDTH: 215px; POSITION: absolute
+}
+.closed#rootDonation .case {
+	VISIBILITY: hidden
+}
+#rootDonation .case .rectangle {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#rootDonation .legend {
+	BORDER-RIGHT: #e3e3e3 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #e3e3e3 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; BORDER-LEFT: #e3e3e3 1px solid; WIDTH: 100%; PADDING-TOP: 4px; BORDER-BOTTOM: #e3e3e3 1px solid
+}
+#rootDonation .legend TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 0px
+}
+#rootDonation .legend .color {
+	FONT-SIZE: 1px; OVERFLOW: hidden; WIDTH: 11px; HEIGHT: 18px
+}
+#rootDonation .color1 {
+	BACKGROUND: #5c5c5c
+}
+#rootDonation .color2 {
+	BACKGROUND: #76cb67
+}
+#rootDonation .legend TD.name {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 5px! important; FONT-SIZE: 11px; PADDING-BOTTOM: 4px! important; PADDING-TOP: 0px! important; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+#rootDonation .graph {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 9px
+}
+#rootDonation .graph TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#rootDonation .graph .histogram {
+	
+}
+#rootDonation .graph .histogram .value {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+#rootDonation .graph .histogram .data {
+	FONT-SIZE: 1px; OVERFLOW: hidden; WIDTH: 50px
+}
+#productCode {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.75em; PADDING-TOP: 0px
+}
+#productPriceOld {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.25em; MIN-HEIGHT: 1.25em; COLOR: #a9a9a9; LINE-HEIGHT: 1.25em; TEXT-DECORATION: line-through
+}
+#productPriceNow {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.25em; MIN-HEIGHT: 1.25em; COLOR: #e00035; LINE-HEIGHT: 1.25em
+}
+#productPriceVAT {
+	FONT-SIZE: 1em; MIN-HEIGHT: 1em; MARGIN: 0.35em 0px 0px; LINE-HEIGHT: 1em
+}
+#productOptions {
+	MARGIN: 1.5em 0px 0px
+}
+#optionsTitle {
+	DISPLAY: none
+}
+#optionsDescription {
+	DISPLAY: none
+}
+#optionsBody {
+	
+}
+#optionsBody TD {
+	PADDING-RIGHT: 0.25em; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.25em; PADDING-TOP: 0.25em
+}
+#optionsBody .help {
+	MARGIN: 0px 0px 0px 0.25em; POSITION: relative; TOP: -0.15em
+}
+#productMultipack {
+	MARGIN: 3ex 0px 4ex
+}
+#productMultipack H2 {
+	FONT-SIZE: 1.4em; MARGIN: 1.65ex 0px 2ex; COLOR: #16a200
+}
+#productMultipack TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.85em; PADDING-BOTTOM: 10px; COLOR: #333; PADDING-TOP: 0px; BORDER-BOTTOM: #e2e2e2 1px solid; TEXT-ALIGN: left
+}
+#productMultipack TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: middle; PADDING-TOP: 10px; BORDER-BOTTOM: #ccc 1px dashed
+}
+#productMultipack STRONG {
+	PADDING-RIGHT: 2ex; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 1.1em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#productMultipack SELECT {
+	FONT-SIZE: 11px; WIDTH: 190px
+}
+#productSold {
+	FONT-SIZE: 1.1em; MARGIN: 1.5em 0px 0px
+}
+#productSubmit {
+	MARGIN: 1.5em 0px 0px
+}
+.productButton {
+	MARGIN: 0.15em 0px; WIDTH: 9em
+}
+.help#submitBasket {
+	CURSOR: help
+}
+#productDiscount {
+	MARGIN: 1.5em 0px 0px
+}
+#productDiscount P {
+	PADDING-RIGHT: 1.1ex; PADDING-LEFT: 1.1ex; BACKGROUND: #47a432; PADDING-BOTTOM: 1.1ex; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 1.1ex
+}
+#productDiscount STRONG {
+	DISPLAY: block
+}
+#productList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1em; PADDING-TOP: 0px
+}
+#productList UL {
+	MARGIN: 1.5em 0px 0px 1.25em
+}
+#productContent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0.5em
+}
+#productAlso {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 1em
+}
+#productAlso H2 {
+	FONT-SIZE: 1.2em; MARGIN: 0.4em 0px 0.25em
+}
+#productAlso DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.25em; PADDING-TOP: 0.1em
+}
+#productAlso TD {
+	VERTICAL-ALIGN: top
+}
+#productAlso TD DIV {
+	MARGIN: 0px 8px 0px 0px; WIDTH: 50px; TEXT-ALIGN: center
+}
+#productAlso IMG {
+	VERTICAL-ALIGN: bottom
+}
+#productAlso UL {
+	MARGIN: 0px 0px 0px 0.5em
+}
+#productAlso UL P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0.1em
+}
+#rootCatalog {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: #f9f9f9; PADDING-BOTTOM: 20px; MARGIN: 2.5ex 0px 0px; WIDTH: 100%; CURSOR: default; PADDING-TOP: 20px
+}
+#rootCatalog .spacer {
+	WIDTH: 19px; HEIGHT: 24px
+}
+.catalogItem {
+	TEXT-ALIGN: center
+}
+.catalogImage {
+	DISPLAY: block; BACKGROUND: url(/images/empty-catalog.gif) no-repeat center center; OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 150px
+}
+.catalogName {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 1.4em; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.17em; PADDING-TOP: 1.1ex
+}
+.over .catalogName {
+	COLOR: #060! important; TEXT-DECORATION: underline
+}
+.rootCatalog_Separator {
+	HEIGHT: 24px
+}
+.newsRow {
+	
+}
+.newsImage {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px 16px 0px 0px; WIDTH: 200px; PADDING-TOP: 1px; TEXT-ALIGN: center
+}
+.newsImage DIV {
+	MARGIN: 0px auto
+}
+.newsTitle {
+	FONT-SIZE: 1.17em! important; MARGIN: -1px 0px 0px
+}
+.newsDescription {
+	MARGIN: 0.35ex 0px 0px
+}
+.newsDate {
+	MARGIN: 0.85ex 0px 0px; COLOR: #999! important; WHITE-SPACE: nowrap
+}
+.newsSeparator {
+	BACKGROUND: url(/images/1pixel.gif) repeat-x center center
+}
+.newsSeparator .spacer {
+	HEIGHT: 29px
+}
+#newsArticle {
+	
+}
+#newsArticle .newsBody {
+	
+}
+#newsArticle .newsDate {
+	MARGIN: 0.75em 0px 0px
+}
+.libraryImage {
+	BORDER-RIGHT: #eee 1px solid; BORDER-TOP: #eee 1px solid; BORDER-LEFT: #eee 1px solid; BORDER-BOTTOM: #eee 1px solid
+}
+.libraryItem A:hover .libraryImage {
+	BORDER-LEFT-COLOR: #16a200; BORDER-BOTTOM-COLOR: #16a200; BORDER-TOP-COLOR: #16a200; BORDER-RIGHT-COLOR: #16a200
+}
+.libraryDescription {
+	COLOR: #999
+}
+.libraryItem A:hover .libraryDescription {
+	COLOR: #666
+}
+#pageSearch #pageBody H2 {
+	MARGIN-TOP: 1.5em
+}
+#bodyMap UL {
+	MARGIN: 1em 0px 1.5em 0.75em
+}
+#bodyMap UL UL {
+	MARGIN: 0.85em 0px 1.5em 1.25em
+}
+#windowOption {
+	
+}
+#windowOptions {
+	
+}
+#windowOption H1 {
+	MARGIN-TOP: 0px
+}
+#windowOptions H1 {
+	MARGIN-TOP: 0px
+}
+#bodyEditor {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: #fff; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+#bodyEditor {
+	COLOR: #5c5c5c
+}
+#bodyEditor TD {
+	COLOR: #5c5c5c
+}
+#bodyExchange {
+	DISPLAY: none! important
+}
+.curve {
+	DISPLAY: block; FONT-SIZE: 1px; Z-INDEX: 2001; OVERFLOW: hidden; POSITION: relative; TEXT-ALIGN: left
+}
+.curve  {
+	DISPLAY: block; OVERFLOW: hidden
+}
+.curve EM {
+	FLOAT: right
+}
+.curve1 {
+	MARGIN: 0px 0px -1px; HEIGHT: 1px
+}
+.curve1_ {
+	MARGIN: -1px 0px 0px
+}
+.curve1  {
+	BACKGROUND: #fff; WIDTH: 1px; HEIGHT: 11px
+}
+#productAlso .productImage {
+	WIDTH: 136px; HEIGHT: 105px; TEXT-ALIGN: center
+}
+#productAlso .title {
+	WIDTH: 160px
+}
+P.catName {
+	MARGIN: 0px 0px 0.75ex
+}
+.codeImage {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: #f5f5f5; PADDING-BOTTOM: 15px; MARGIN: 30px 0px; WIDTH: 100%; PADDING-TOP: 15px; TEXT-ALIGN: center
+}
+.codeImage_Caption {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 1.25em; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #999; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.codeImage P {
+	MARGIN: 0px 0px 15px
+}
+.codeImage IMG {
+	VERTICAL-ALIGN: bottom
+}
+.codeImage TEXTAREA {
+	WIDTH: 100%; HEIGHT: 4.3em
+}
+.codeImage BUTTON {
+	MARGIN: 1ex 0px 0px
+}
+.shareURL {
+	BORDER-RIGHT: gray 1px dotted; PADDING-RIGHT: 8px; BORDER-TOP: gray 1px dotted; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; BORDER-LEFT: gray 1px dotted; WIDTH: 320px; PADDING-TOP: 0px; BORDER-BOTTOM: gray 1px dotted; BACKGROUND-COLOR: #ffffe1
+}
+.shareURL STRONG {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}

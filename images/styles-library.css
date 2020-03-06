@@ -1,0 +1,48 @@
+#bodyLibrary {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0px
+}
+#bodyLibrary P {
+	MARGIN-BOTTOM: 0.25em
+}
+#bodyLibrary TD {
+	VERTICAL-ALIGN: top; TEXT-ALIGN: center
+}
+#bodyLibrary .spacer {
+	WIDTH: 25px; HEIGHT: 25px
+}
+#bodyLibrary H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.25em; TEXT-ALIGN: left
+}
+.libraryItem {
+	
+}
+.libraryItem A {
+	DISPLAY: block
+}
+.libraryItem SPAN {
+	DISPLAY: block
+}
+.libraryImage IMG {
+	VERTICAL-ALIGN: bottom
+}
+.libraryTitle {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0.5em
+}
+.libraryItem A:hover .libraryTitle {
+	TEXT-DECORATION: underline
+}
+.libraryDescription {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; PADDING-TOP: 0.15em; TEXT-DECORATION: none! important
+}
+.libraryType {
+	
+}
+.librarySize {
+	
+}
+.libraryType {
+	DISPLAY: inline! important
+}
+.librarySize {
+	DISPLAY: inline! important
+}

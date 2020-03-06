@@ -1,0 +1,114 @@
+#ad {
+	
+}
+#ad .spacer {
+	FONT-SIZE: 1px! important; VISIBILITY: hidden! important; OVERFLOW: hidden! important; WIDTH: 30px! important; HEIGHT: 1px! important
+}
+#ad #shadow-lt {
+	WIDTH: 30px; HEIGHT: 30px
+}
+#ad #shadow-xt {
+	WIDTH: 30px; HEIGHT: 30px
+}
+#ad #shadow-rt {
+	WIDTH: 30px; HEIGHT: 30px
+}
+#ad #shadow-lb {
+	WIDTH: 30px; HEIGHT: 30px
+}
+#ad #shadow-xb {
+	WIDTH: 30px; HEIGHT: 30px
+}
+#ad #shadow-rb {
+	WIDTH: 30px; HEIGHT: 30px
+}
+#ad #shadow-lt {
+	BACKGROUND: url(/images/shadow-lt.png) no-repeat right bottom
+}
+#ad #shadow-xt {
+	BACKGROUND: url(/images/shadow-xt.png) repeat-x center bottom; WIDTH: 100%
+}
+#ad #shadow-rt {
+	BACKGROUND: url(/images/shadow-rt.png) no-repeat left bottom
+}
+#ad #shadow-ly {
+	BACKGROUND: url(/images/shadow-ly.png) repeat-y right center
+}
+#ad #shadow-ry {
+	BACKGROUND: url(/images/shadow-ry.png) repeat-y left center
+}
+#ad #shadow-lb {
+	BACKGROUND: url(/images/shadow-lb.png) no-repeat right top
+}
+#ad #shadow-xb {
+	BACKGROUND: url(/images/shadow-xb.png) repeat-x center top; WIDTH: 100%
+}
+#ad #shadow-rb {
+	BACKGROUND: url(/images/shadow-rb.png) no-repeat left top
+}
+#ad #adContent {
+	BACKGROUND: #fff; LEFT: -8px; MARGIN: -14px -16px -1px 0px; BOTTOM: -1px; POSITION: relative; HEIGHT: 14px
+}
+#ad #adContent  {
+	MARGIN: 0px
+}
+#ad #adName {
+	DISPLAY: block; POSITION: relative; TOP: -2px
+}
+#ad #adName A {
+	FONT-SIZE: 1.4em; COLOR: #000; TEXT-DECORATION: none
+}
+#ad #adClose {
+	DISPLAY: block; FONT-SIZE: 1px; BACKGROUND: url(/images/close.gif) no-repeat center center; MARGIN: 2px 2px 2px 20px; WIDTH: 9px; CURSOR: pointer; HEIGHT: 9px
+}
+#ad #adImage {
+	BACKGROUND-POSITION: center center; MARGIN: 3px 0px 0px; CURSOR: pointer; BACKGROUND-REPEAT: no-repeat
+}
+#ad #adImage .spacer {
+	WIDTH: 22px! important; HEIGHT: 1px! important
+}
+#ad #light-lt {
+	WIDTH: 22px; HEIGHT: 22px
+}
+#ad #light-xt {
+	WIDTH: 22px; HEIGHT: 22px
+}
+#ad #light-rt {
+	WIDTH: 22px; HEIGHT: 22px
+}
+#ad #light-lb {
+	WIDTH: 22px; HEIGHT: 22px
+}
+#ad #light-xb {
+	WIDTH: 22px; HEIGHT: 22px
+}
+#ad #light-rb {
+	WIDTH: 22px; HEIGHT: 22px
+}
+#ad #light-lt {
+	BACKGROUND: url(/images/light-lt.png) no-repeat right bottom
+}
+#ad #light-xt {
+	BACKGROUND: url(/images/light-xt.png) repeat-x center bottom; WIDTH: 100%
+}
+#ad #light-rt {
+	BACKGROUND: url(/images/light-rt.png) no-repeat left bottom
+}
+#ad #light-ly {
+	BACKGROUND: url(/images/light-ly.png) repeat-y right center
+}
+#ad #light-ry {
+	BACKGROUND: url(/images/light-ry.png) repeat-y left center
+}
+#ad #light-lb {
+	BACKGROUND: url(/images/light-lb.png) no-repeat right top
+}
+#ad #light-xb {
+	BACKGROUND: url(/images/light-xb.png) repeat-x center top; WIDTH: 100%
+}
+#ad #light-rb {
+	BACKGROUND: url(/images/light-rb.png) no-repeat left top
+}
+#ad #adDescription {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 1px; FONT-SIZE: 0.85em; PADDING-BOTTOM: 0px; CURSOR: pointer; COLOR: #0d0d0d! important; LINE-HEIGHT: 1.2em; PADDING-TOP: 5px; FONT-FAMILY: Tahoma, Arial, sans-serif; TEXT-DECORATION: none
+}

@@ -1,0 +1,39 @@
+#profile {
+	
+}
+#profileName {
+	
+}
+#profileName STRONG {
+	
+}
+#profileAddress {
+	MARGIN: 0px 0px 1em
+}
+#profileContacts {
+	MARGIN: 1em 0px 0px
+}
+#profileContacts DL {
+	MARGIN: 0px; LINE-HEIGHT: 1.2em
+}
+#profileContacts DT {
+	MARGIN: 0px; WIDTH: 3.75em; WHITE-SPACE: nowrap
+}
+#profileContacts DD {
+	MARGIN: -1.2em 0px 0px 3.75em
+}
+#profileMailboxContainer {
+	WHITE-SPACE: nowrap
+}
+#profileRegistration {
+	MARGIN: 1em 0px 0px
+}
+#profileRegistrationNumber {
+	WHITE-SPACE: nowrap
+}
+#profileRegistrationLocation {
+	
+}
+#profileVATNumber {
+	WHITE-SPACE: nowrap
+}

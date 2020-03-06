@@ -1,0 +1,18 @@
+.line-dot-ver {
+	BACKGROUND: url(/images/dot-ver.gif) repeat-y
+}
+.line-dot-gor {
+	BACKGROUND: url(/images/dot-gor.gif) repeat-x
+}
+.attentionTxt {
+	COLOR: #ff0000
+}
+.small {
+	FONT-SIZE: 90%; LINE-HEIGHT: 1.2; FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+.codeGraphic {
+	WIDTH: 90px; HEIGHT: 60px
+}
+.pound {
+	MARGIN: 0px 0.1em 0px 0px
+}
